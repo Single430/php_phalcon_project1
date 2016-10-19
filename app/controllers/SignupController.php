@@ -21,7 +21,7 @@ class SignupController extends ControllerBase
         // 存储和检验错误
         $servername = "127.0.0.1";
         $username = "root";
-        $password = "123456";
+        $password = "xxx";
         $dbname = "test_store_db";
         //创建连接
         $conn = new mysqli($servername, $username, $password, $dbname);
