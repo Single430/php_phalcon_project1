@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<?php use Phalcon\Tag; ?>
+
+<h2>Sign up using this form</h2>
+
+<?php echo Tag::form(array("signup/register", "method"=>"post")); ?>
+     <p>
+        <label for="name">Name</label>
+        <?php echo Tag::textField("name") ?>
+     </p>
+
+     <p>
+        <label for="email">E-Mail</label>
+        <?php echo Tag::textField("email") ?>
+     </p>
+
+     <p>
+        <?php echo Tag::submitButton("注 册") ?>
+     </p>
+
+</form>
+
+
+</body>
+</html>
