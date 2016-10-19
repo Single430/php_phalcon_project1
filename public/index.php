@@ -28,7 +28,7 @@ try {
         return new DbAdapter(array(
             "host"     => "127.0.0.1",
             "username" => "root",
-            "password" => "123456",
+            "password" => "xxx",
             "dbname"   => "test_store_db"
         ));
     });
